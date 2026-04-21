@@ -1,0 +1,11 @@
+{
+  "name": "gecko-iot-habitat",
+  "version": "1.0.0",
+  "description": "Gecko IoT Habitat Monitoring System with OpenSpec workflow",
+  "scripts": {
+    "dev:start": "sh startup.sh || powershell -ExecutionPolicy Bypass -File startup.ps1",
+    "dev:ending": "sh ending.sh || powershell -ExecutionPolicy Bypass -File ending.ps1"
+  },
+  "author": "Antigravity",
+  "license": "MIT"
+}
